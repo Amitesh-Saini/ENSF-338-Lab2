@@ -89,6 +89,25 @@ plt.show()
 
 
 
+# Question 4 
+
+# The linear sort function goes through the array one by one to find what we want so the time complexity
+# of the worst case is O(n) while the best case is O(1). - Array can either be sorted or not sorted
+# the function we made takes in two inputs the array we want to go through and x - what were looking for
+# then we iterate through using a for loop so this justifes the O(n) time complexity 
+# Becase the time complexity is O(n) it is linear we model using y = mx+b and the graph that
+# is plotted shows the realtionship is very close to linear based on the data we plotted. 
+
+# The binary sort function splits the array into two parts so from 0-hald then half-n and checkas if what we are looking for 
+# is bigger then the half value. If it is then goes onto the array half - n. If x is smaller than hald then it checks
+# the array 0 - half, and it keeps doing thing until it finds x. For this to work the array needs to be sorted 
+# This gives us a time complexity of O(log (base 2) n) as everytie we are splitting the array in half which leads to 
+# n/2^k <= 1 steps as at the last step we willl have our anwer so its easy to see that the complexity time 
+# is (log (base 2) n). The parameters for this function were the sorted array and x - what we want to find
+# When we plot this we can see it clearly that the grapgh closley follows the log curve which is what we expected  
+
+
+
 
 
 
